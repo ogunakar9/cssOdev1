@@ -1,0 +1,42 @@
+
+h1 {
+    text-transform: capitalize;
+    color: rgb(206, 67, 67);
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li > img {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(181, 57, 197)
+}
+
+h3 {
+    color: rgb(199, 151, 18);
+}
+
+.links > ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.links > ul > li {
+    margin: auto 1em;
+}
+
+.links > ul > li:first-child {
+    margin-left: none;
+}
